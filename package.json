@@ -1,6 +1,9 @@
 {
   "name": "qantas-fe-test",
   "version": "0.0.0",
+  "scripts": {
+    "start": "gulp serve:production"
+  },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "classnames": "^2.1.5",

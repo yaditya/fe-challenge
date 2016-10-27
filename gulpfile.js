@@ -90,6 +90,10 @@ gulp.task('serve', function() {
 		}));
 });
 
+gulp.task('clear', function (done) {
+  	return $.cache.clearAll(done);
+});
+
 gulp.task('set-production', function() {
 	process.env.NODE_ENV = 'production';
 });

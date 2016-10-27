@@ -28,9 +28,10 @@ Additional tasks (maybe pick a couple, but only if you want to or have time!):
 
 ### How to run
 ---
-1. `npm install`
-2. Run `gulp watch`
-3. Go to `http://localhost:9000` from your browser
+1. Make sure you have Node v6 or higher installed
+2. `npm install`
+3. Run `gulp watch`
+4. Go to `http://localhost:9000` from your browser
 
 
 
