@@ -1,0 +1,21 @@
+@font-face {
+    font-family: '291367';
+    src: url('../fonts/291367_5_0.eot');
+    src: url('../fonts/291367_5_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/291367_5_0.woff') format('woff'),
+    url('../fonts/291367_5_0.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '28B55D';
+    src: url('../fonts/28B55D_4_0.woff') format('woff'),
+    url('../fonts/28B55D_4_0.ttf') format('truetype');
+    font-style: normal;
+}
+
+h1 {
+    font-family: '28B55D';
+    font-weight: bold;
+    margin-bottom: 20px;
+}

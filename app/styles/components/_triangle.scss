@@ -1,0 +1,42 @@
+$border-size: 3px;
+$color: $primary-green;
+$border-color: black;
+
+@mixin triangle($size) {
+    width:(($size + $border-size));
+    height:(($size + $border-size));
+    display:inline-block;
+
+    $border-real-size: $size + ($border-size * 2);
+
+    &:before {
+        content:"";
+        height: 0;
+        position:absolute;
+        width: 0;
+        cursor: pointer;
+    }
+
+    &.up:before, &.down:before {
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+    }
+    &.left:before, &.right:before {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+    }
+    &.up:before {
+        border-bottom: ($size * 1.5) solid $color;
+    }
+    &.down:before {
+        border-top: ($size * 1.5) solid $color;
+    }
+    &.right:before {
+        border-left: ($size * 1.5) solid $color;
+        right: 15px;
+    }
+    &.left:before {
+        border-right: ($size * 1.5) solid $color;
+        left: 15px;
+    }
+}

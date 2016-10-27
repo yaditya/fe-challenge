@@ -1,0 +1,8 @@
+.product {
+    /* Large devices (large desktops, 1200px and up) */
+    @include breakpoint($lg) {
+        &:nth-of-type(3n+1) {
+            clear: both;
+        }
+    }
+}

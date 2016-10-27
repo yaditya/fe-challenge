@@ -1,0 +1,14 @@
+.filter-container {
+    padding-left: $grid-gutter-width/2;
+
+    a {
+        color: $black;
+    }
+}
+
+.filter-container__header {
+    background-color: $primary-gray;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px $grid-gutter-width/2;
+}
