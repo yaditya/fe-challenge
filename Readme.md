@@ -26,6 +26,13 @@ Additional tasks (maybe pick a couple, but only if you want to or have time!):
 * SEO – include or make some basic SEO recommendations
 
 
+### How to run
+---
+1. `npm install`
+2. Run `gulp watch`
+3. Go to `http://localhost:9000` from your browser
+
+
 
 ### Technology Stack
 ---
