@@ -2,7 +2,7 @@
   "name": "qantas-fe-test",
   "version": "0.0.0",
   "scripts": {
-    "start": "gulp serve:production",
+    "start": "gulp build:production",
     "postinstall": "gulp default"
   },
   "dependencies": {
